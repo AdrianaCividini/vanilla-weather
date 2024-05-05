@@ -51,7 +51,7 @@ main {
   line-height: 48px;
 }
 .weather-app-details {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 500;
   color: rgba(39, 33, 66, 0.4);
@@ -78,9 +78,24 @@ main {
   margin-top: 16px;
   font-size: 28px;
 }
+
+.weather-forecast {
+  margin-top: 40px;
+}
+
+.forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.min-temperature {
+  opacity: 0.5;
+}
+.forecast-temperatures {
+  font-size: 13px;
+}
 footer {
   border-top: 1px solid rgba(235, 108, 173);
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   padding: 30px 0 0 0;
   color: rgba(0, 0, 0, 0.6);
